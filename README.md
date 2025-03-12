@@ -10,3 +10,38 @@ You can install `convert-to-compact` via NPM:
 
 ```bash
 npm install convert-to-compact
+```
+
+## Usage TypeScript
+
+```bash
+
+const {convertToKMB} = require("convert-to-compact");
+
+const result1 = convertToKMB(224000);
+console.log(result1); // Output: '224K'
+
+const result2 = convertToKMB(1500000);
+console.log(result2); // Output: '1.5M'
+
+const result3 = convertToKMB(5000000000);
+console.log(result3); // Output: '5B'
+
+```
+
+## Usage JavaScript
+
+```bash
+
+import { convertToKMB } from 'convert-to-compact';
+
+const result1 = convertToKMB(224000);
+console.log(result1); // Output: '224K'
+
+const result2 = convertToKMB(1500000);
+console.log(result2); // Output: '1.5M'
+
+const result3 = convertToKMB(5000000000);
+console.log(result3); // Output: '5B'
+
+```

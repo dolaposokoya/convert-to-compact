@@ -1,6 +1,6 @@
 {
   "name": "convert-to-compact",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "A utility to convert large numbers into K, M, or B format",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
@@ -22,6 +22,6 @@
     "typescript": "^5.8.2"
   },
   "dependencies": {
-    "convert-to-compact": "^1.0.0"
+    "convert-to-compact": "^1.0.2"
   }
 }
