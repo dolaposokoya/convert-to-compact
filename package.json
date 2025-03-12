@@ -1,6 +1,6 @@
 {
   "name": "convert-to-compact",
-  "version": "1.1.0",
+  "version": "1.1.120",
   "description": "A utility to convert large numbers into K, M, or B format",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
@@ -8,16 +8,24 @@
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
+
   "keywords": [
+    "compact",
+    "convert-to-compact",
+    "convert",
     "number",
     "format",
-    "K",
-    "M",
-    "B",
-    "abbreviate"
+    "conversion",
+    "to",
+    "K,M,B"
   ],
   "author": "Adedolapo Sokoya",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dolaposokoya/convert-to-compact",
+    "homepage": "https://github.com/dolaposokoya/convert-to-compact#readme"
+  },
   "devDependencies": {
     "typescript": "^5.8.2"
   },
@@ -25,3 +33,5 @@
     "convert-to-compact": "^1.0.2"
   }
 }
+
+

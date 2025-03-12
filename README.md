@@ -16,7 +16,7 @@ npm install convert-to-compact
 
 ```bash
 
-const {convertToKMB} = require("convert-to-compact");
+import { convertToKMB } from 'convert-to-compact';
 
 const result1 = convertToKMB(224000);
 console.log(result1); // Output: '224K'
@@ -33,7 +33,7 @@ console.log(result3); // Output: '5B'
 
 ```bash
 
-import { convertToKMB } from 'convert-to-compact';
+const {convertToKMB} = require("convert-to-compact");
 
 const result1 = convertToKMB(224000);
 console.log(result1); // Output: '224K'
