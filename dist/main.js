@@ -2,7 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.convertToKMB = convertToKMB;
 function convertToKMB(amount) {
-    var amountToString = amount.toString(); // Convert number to string
+    if (typeof amount !== 'number' || isNaN(amount)) {
+        throw new Error("Please, the value should be a number");
+    }
+    var amountToString = amount.toString();
     var amountToArray = amountToString.split("");
     var lengthOfNumber = amountToArray.length;
     if (lengthOfNumber === 6) {
