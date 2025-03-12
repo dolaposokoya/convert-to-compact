@@ -1,0 +1,27 @@
+{
+  "name": "convert-to-compact",
+  "version": "1.0.1",
+  "description": "A utility to convert large numbers into K, M, or B format",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "number",
+    "format",
+    "K",
+    "M",
+    "B",
+    "abbreviate"
+  ],
+  "author": "Adedolapo Sokoya",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "convert-to-compact": "^1.0.0"
+  }
+}

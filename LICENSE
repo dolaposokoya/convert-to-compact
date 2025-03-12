@@ -1,0 +1,18 @@
+
+---
+
+### **Code Explanation**
+
+**`convertToKMB(amount: number)`**:
+
+- **Purpose**: Converts large numbers into readable abbreviations (K, M, B).
+  
+- **Logic**:
+  - If the number is in the range of thousands (6 digits), it appends 'K' and divides by 1,000.
+  - If the number is in the range of millions (7–9 digits), it appends 'M' and divides by 1,000.
+  - If the number is in the range of billions (10–12 digits), it appends 'B' and divides by 1,000.
+  - Numbers less than 1,000 are returned as a string without modification.
+
+---
+
+
