@@ -1,6 +1,6 @@
 {
   "name": "convert-to-compact",
-  "version": "1.1.120",
+  "version": "1.1.121",
   "description": "A utility to convert large numbers into K, M, or B format",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
@@ -17,7 +17,15 @@
     "format",
     "conversion",
     "to",
-    "K,M,B"
+    "transfomr",
+    "transformer",
+    "Process",
+    "transformation",
+    "convert number",
+    "converting",
+    "pre-process",
+    "pre process",
+    "numbers"
   ],
   "author": "Adedolapo Sokoya",
   "license": "MIT",
