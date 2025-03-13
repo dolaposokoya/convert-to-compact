@@ -1,6 +1,6 @@
 # Limited Use License
 
-##### Copyright (c) {{ YEAR }} Phrite Tech
+##### Copyright (c) 2025 Phrite Tech
 
 Permission is hereby granted, free of charge, to any person obtaining a copyof this software and associated documentation files (the "Software"), to usethe Software solely for personal, educational, or internal business purposes,subject to the following conditions:
 
