@@ -8,7 +8,6 @@
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-
   "keywords": [
     "compact",
     "convert-to-compact",
@@ -35,11 +34,11 @@
     "homepage": "https://github.com/dolaposokoya/convert-to-compact#readme"
   },
   "devDependencies": {
+    "@types/node": "^22.13.10",
     "typescript": "^5.8.2"
   },
   "dependencies": {
-    "convert-to-compact": "^1.0.2"
+    "convert-to-compact": "^1.0.2",
+    "fs": "^0.0.1-security"
   }
 }
-
-
